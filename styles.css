@@ -1,0 +1,29 @@
+.button {
+    -fx-effect: dropshadow(one-pass-box, black, 8, 0.0, 2, 0);
+    -fx-border-width: 50;
+    -fx-border-height: 25;
+    -fx-font-size: 25;
+    -fx-text-fill: blue;
+    -fx-font: normal 20pt Arial;
+}
+
+#title{
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-font-color:Blue;
+}
+
+
+.text-field {
+  -fx-border-color: grey; /* Sets the border color to grey */
+  -fx-border-width: 1 1 1 1; /* Sets the border width to 1 pixel on all sides */
+  -fx-background-color: transparent; /* Sets the background color to transparent */
+  -fx-pref-width: 100; /* Sets the preferred width of the TextField to 100 pixels */
+  -fx-pref-height: 30; /* Sets the preferred height of the TextField to 30 pixels */
+  -fx-font-size: 25; /* Sets the font size to 25 pixels */
+}
+
+.text-field:focused {
+  -fx-background-color: -fx-focus-color, -fx-background; /* Sets the background color when the TextField is focused */
+}
